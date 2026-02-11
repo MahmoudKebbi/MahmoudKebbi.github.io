@@ -398,7 +398,17 @@ footer {
   top: 0;
   left: 0;
   z-index: -1;
+  pointer-events: auto;
+}
+
+.particles-overlay {
+  position: relative;
+  z-index: 1;
   pointer-events: none;
+}
+
+.particles-overlay * {
+  pointer-events: auto;
 }
 
 
